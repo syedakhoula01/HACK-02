@@ -14,6 +14,11 @@ int main(void)
 
     printf("enter longitude and latitudeof destination\n");
     scanf("%f %f", &LO1 , &LO2);
+
+    double a=(LA1 * PI)/180;
+    double b=(LA2 * PI)/180;
+    double c=(LO1 * PI)/180;
+    double d=(LO2 * PI)/180;
     
 
 }
