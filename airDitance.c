@@ -20,5 +20,8 @@ int main(void)
     double c=(LO1 * PI)/180;
     double d=(LO2 * PI)/180;
     
+    double difference = d-c;
+
+    double distance = acos(sin(a)*sin(b)+cos(a)*cos(b)*cos(difference)*(avg));
 
 }
