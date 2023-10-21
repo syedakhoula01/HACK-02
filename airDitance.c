@@ -11,5 +11,9 @@ int main(void)
     const float PI= 3.1415;
     printf("Enter the Longitude and Latitude of origin in Degree \n");
     scanf("%f %f",&LA1 , &LA2);
+
+    printf("enter longitude and latitudeof destination\n");
+    scanf("%f %f", &LO1 , &LO2);
     
+
 }
