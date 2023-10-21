@@ -24,4 +24,7 @@ int main(void)
 
     double distance = acos(sin(a)*sin(b)+cos(a)*cos(b)*cos(difference)*(avg));
 
+    printf("airDistance : %f ",distance);
+    return 0;
+
 }
